@@ -1,85 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
 
-/* Add a gray background color with some padding */
-body {
-  font-family: Arial;
-  padding: 20px;
-  background: rgb(156, 154, 154);
-  
-}
+<link href="css/styles.css" rel="stylesheet">
 
-/* Header/Blog Title */
-.header {
-  padding: 30px;
-  font-size: 40px;
-  text-align: center;
-  background: gray;
-  border-style: solid;
-  border-color: #E39EFA;
-}
+<title>Kasey H's Blog Winter 2022</title>
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
-}
-
-
-/* Add a card effect for articles */
-.card {
-   background-color: gray;
-   padding: 20px;
-   margin-top: 20px;
-   border-style: solid;
-  border-color: #E39EFA;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: gray;
-  margin-top: 20px;
-  border-style: solid;
-  border-color: #E39EFA;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
-</style>
-</head>
 <body>
-
 <div class="header">
   <h2>Kasey's Corner</h2>
 </div>
+
 
 <div class="row">
   <div class="leftcolumn">
@@ -99,16 +31,27 @@ body {
   <div class="rightcolumn">
     <div class="card">
       <h2>About Me</h2>
-      <img src="kaseyportraitfinal.png" alt="a very real depcition of myself" width="300px">
-      <p>Here will be a picture and a breif statement about myself.</p>
+      <img src="Images/kaseyportraitfinal.png" alt="a very real depcition of myself" width="300px">
+      <p>Hello! I am a 3X year old Software developer located in Seattle, WA. Welcome to my blog!</p>
+      <p>Here you will find my ramblings, school projects and projects for fun!</p>
     </div>
     
   </div>
 </div>
 
-<div class="footer">
-  <h2>Footer</h2>
-</div>
+<footer>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="https://NPR.ORG">News</a></li>
+  <li><a href="mailto:totallynotkasey@gmail.com">Contact</a></li>
+  <li><a href="https://www.linkedin.com/in/kasey-h-66727aba/">LinkedIn</a></li>
+  <li><a href="cats.html">Cats!</a></li>
+  <li><a href="https://totallynotkasey.github.io/Portfolio/">Portfolio</a></li>
+  <li><a href="https://github.com/totallynotkasey">Github</a></li>
+  <li><a href="pizza.html">Pizza Project!</a></li>
+</ul>
+</footer>
+
 
 </body>
 </html>
